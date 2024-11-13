@@ -1,0 +1,21 @@
+.container{
+   display: flex;
+    align-items: center;
+    flex-direction: column ;
+    margin-right: 100px;
+   
+}
+.btn{
+    background-color: rgb(113, 37, 184);
+    border-radius: 30px;
+    border: 2px  rgb(154, 66, 186);
+    background-image: url(/src/img/icon/Icon.png);
+    background-position: center;
+    background-repeat:no-repeat ;
+    width: 120px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

@@ -1,0 +1,11 @@
+.know_more{
+ 
+    --secondary-color: #222;
+    border-radius: 10px;
+    border: 2px var(--text-color);
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

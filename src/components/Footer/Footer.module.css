@@ -1,0 +1,43 @@
+.conteinerFootCol{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    border: 1px solid rgb(48, 48, 48);
+}
+.conteinerFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin: 0 7%;
+    width: 100%;
+}
+.logo{
+    background-image: url(/src/img/Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    width: 70%;
+    height: 30vh;
+}
+.footNav{
+    width: 70%;
+}
+.footRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.footCol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+.footDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  margin-left: 7%;
+    width: 90%;  
+}

@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+--bg-color: #111;
+
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover; 
+}
+
+.lightTheme {
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --primary-color: #ff4b2b;
+  --secondary-color: #222;
+ 
+}
+
+.darkTheme {
+  --bg-color: #111;
+  --text-color: #fff;
+  --primary-color: #ff4b2b;
+  --secondary-color: #333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.contactButton, .testimonial span, .question h3 {
+  color: var(--primary-color);
+}
+
+.serviceItem, .portfolio, .gallery .photo {
+  background-color: var(--secondary-color);
+}

@@ -1,0 +1,65 @@
+.BtnLeftRight{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+.LR{
+    width: 160px;
+    height: 80px;
+    background-color:var(--primary-color);
+    color:var(--text-color) ;
+    border-radius: 30px;
+    border: 2px  rgb(96, 95, 95);
+    padding: 5px;
+    margin: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;  
+}
+.BtnLeft{
+    background-image: url(/src/img/icon/Icon.left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:var(--btn-bg-color);
+    color:var(--text-color) ;
+    border-radius: 30px;
+    border: 2px  rgb(69, 68, 68);
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.BtnRight{
+    background-image: url(/src/img/icon/Icon.right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:var(--btn-bg-color);
+    color:var(--text-color) ;
+    border-radius: 30px;
+    border: 2px  rgb(69, 68, 68);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.Btn{
+    background-color:var(--btn-bg-color);
+    color:var(--text-color) ;
+    border-radius: 10px;
+    border: 2px  rgb(69, 68, 68);
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

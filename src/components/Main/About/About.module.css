@@ -1,0 +1,105 @@
+
+.about{
+align-items: center;
+margin-left: 7%;
+width: 85%;
+}
+.nav_about{
+display: flex; 
+flex-direction: row;   
+justify-content: space-between;
+margin: 20px;
+
+}
+.btn{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.text{
+   
+    width: 70%;
+    height: 10vh;
+}
+
+.know_more{
+background-color: var(--btn-bg-color);
+color: var(--text-color);
+border-radius: 10px;
+border: 2px  rgb(69, 68, 68);
+padding: 10px;
+margin: 30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-ms-border-radius: 10px;
+-o-border-radius: 10px;
+}
+.about_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.about_container{
+ 
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    width: 50%;   
+}
+
+.text_intr{
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.introduction{
+    align-items: center;
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px ;
+}
+.intr_contact{
+    align-items: center;
+    font-size: 41px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+.Contact{
+ 
+    background-color: var(--btn-bg-color);
+    color: var(--text-color);
+    border-radius: 10px;
+    border: 2px  rgb(69, 68, 68);
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;  
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 26px;
+    margin: 25px;
+}

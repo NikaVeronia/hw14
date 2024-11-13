@@ -1,0 +1,59 @@
+.social{
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    border: 2px  rgb(96, 95, 95);
+    padding: 5px;
+    margin: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;  
+}
+.facebookBtn{
+    background-image: url(/src/img/icon/Icon.f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(41, 40, 40);
+    border-radius: 30px;
+    border: 2px  rgb(69, 68, 68);
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.twitBtn{
+    background-image: url(/src/img/icon/Icon.twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(41, 40, 40);
+    border-radius: 30px;
+    border: 2px  rgb(69, 68, 68);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.instBtn{
+    background-image: url(/src/img/icon/Icon.in.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(41, 40, 40);
+    border-radius: 30px;
+    border: 2px  rgb(69, 68, 68);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
